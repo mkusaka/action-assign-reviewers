@@ -10,7 +10,9 @@
     "typescript": "^4.4.4"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "push": "yarn build && git push origin HEAD && git push --tags",
+    "patch": "npm version patch"
   },
   "dependencies": {
     "@actions/core": "^1.6.0",
