@@ -1,0 +1,17 @@
+name: 'assign reviewers action'
+description: 'Add reviewers to pull request action.'
+author: 'mkusaka'
+inputs:
+  github_token:
+    description: A GitHub token.
+    default: ${{ github.token }}
+    required: false
+  reviewers:
+    description: reviewers to add to pull request.
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'user-plus'
+  color: 'blue'
