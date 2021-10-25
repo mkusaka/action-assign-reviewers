@@ -1,6 +1,6 @@
 {
   "name": "action-assign-reviewers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/main.js",
   "repository": "https://github.com/mkusaka/action-assign-reviewers.git",
   "author": "mkusaka <hinoshita1992@gmail.com>",
