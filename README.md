@@ -7,14 +7,14 @@ An action which add reviwers to the pull request.
 name: Assign
 
 on:
-  pll_request: 
+  pll_request:
     types: [opened]
 
 jobs:
   request-review:
     runs-on: ubuntu-latest
     steps:
-      - uses: mkusaka/action-assign-reviewers@v0.0.2
+      - uses: mkusaka/action-assign-reviewers@v0.0.4
         with:
           reviewers: |
             user-1
