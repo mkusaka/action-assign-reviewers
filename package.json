@@ -8,7 +8,7 @@
   "devDependencies": {
     "@vercel/ncc": "0.38.0",
     "prettier": "2.6.1",
-    "typescript": "5.2.2"
+    "typescript": "5.9.2"
   },
   "scripts": {
     "build": "yarn package",
